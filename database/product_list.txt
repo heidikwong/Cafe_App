@@ -1,6 +1,6 @@
 apple
 strawberry
-eggs
+egg
 sausage
-thyme
-cucumber
+basil
+pea
