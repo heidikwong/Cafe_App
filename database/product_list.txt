@@ -2,6 +2,5 @@ apple
 strawberry
 eggs
 sausage
-lentil
+thyme
 cucumber
-salami

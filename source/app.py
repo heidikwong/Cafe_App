@@ -49,8 +49,8 @@ while True:
             with open("../database/product_list.txt", "w") as products:
                 for product in product_list:
                     products.write(product + "\n")
-            print("\nProduct name updated.")
-            # products.close()
+            print("\nProduct updated.")
+
 
         elif menu_option == 4:
             print("\nDelete product")
@@ -59,8 +59,10 @@ while True:
             print(f"{product_list[product_index]} deleted.")
             product_list.pop(product_index)
             print(product_list)
-            products = open("../database/product_list.txt", "w")
-            products.write("\n".join(product_list))
+            with open("../database/product_list.txt", "w") as products:
+                for product in product_list:
+                    products.write(product + '\n')
+
 
     #Courier Menu
     elif user_option == 2:
@@ -77,8 +79,10 @@ while True:
         elif menu_option == 2:
             print("\nAdd courier")
             new_courier = input("Name of new courier: ")
-            couriers = open("../database/courier_list.txt", "a")
-            couriers.write("\n" + new_courier)
+            courier_list.append(new_courier)
+            with open("../database/courier_list.txt", "a") as couriers:
+                for courier in courier_list:
+                    couriers.write(new_courier+"\n" )
             print(f"\nNew courier {new_courier} created.")
 
         elif menu_option == 3:
@@ -86,17 +90,21 @@ while True:
             print(list(enumerate(courier_list)))
             courier_index = int(input("Enter courier no.: "))
             courier_list[courier_index] = input("New courier name: ")
-            couriers = open("../database/courier_list.txt", "w")
-            couriers.write("\n".join(courier_list))
-            print("Courier name updated.")
+
+            with open("../database/courier_list.txt", "w") as couriers:
+                for courier in courier_list:
+                    couriers.write(courier + "\n")
+            print("Courier updated.")
 
         elif menu_option == 4:
             print("Delete courier")
             print(list(enumerate(courier_list)))
             courier_index = int(input("\nEnter courier no. to delete: "))
-            print(f"{courier_list[courier_index]} deleted.")
+            print(f"{courier_list[courier_index]} to be deleted.")
             courier_list.pop(courier_index)
             print(courier_list)
-            products = open("../database/courier_list.txt", "w")
-            products.write("\n".join(courier_list))
+
+            with open("../database/courier_list.txt", "w") as couriers:
+                for courier in courier_list:
+                    couriers.write( courier +"\n")
 
