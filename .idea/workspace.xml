@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22aa9ea6-9b3d-442b-8706-8ffdf6e45052" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/courier_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/courier_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/product_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/product_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dockerfile" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in unit_test_ex_2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in /Users/kct/Documents/LEARN/CODING/Generation_DELon7/Slides &amp; Exercises/08_Unit-Testing/unit_test_ex_2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="08_Unit-Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +152,7 @@
         <item itemvalue="Python.Ali_MiniProject1" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.exercises" />
-        <item itemvalue="Python tests.Python tests in unit_test_ex_2.py" />
+        <item itemvalue="Python tests.Python tests in /Users/kct/Documents/LEARN/CODING/Generation_DELon7/Slides &amp; Exercises/08_Unit-Testing/unit_test_ex_2.py" />
       </list>
     </recent_temporary>
   </component>
