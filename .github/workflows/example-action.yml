@@ -1,6 +1,9 @@
 name: list-repo
 
-on: push
+on:
+  push:
+    branches:
+      -master
 
 jobs:
   list-repo-files:
@@ -11,3 +14,8 @@ jobs:
         uses: actions/checkout@v2
       - name: list-dir
         run: ls -laR # Recursively list directory contents
+      - name: install pygount
+        run: pip install pygount
+      - name: count lines
+        run: pygount app.py
+
