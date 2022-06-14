@@ -1,0 +1,1 @@
+An CLI application for cafe order management.
