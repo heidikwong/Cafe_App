@@ -16,7 +16,7 @@ jobs:
         run: ls -laR # Recursively list directory contents
 
   install-pygount:
-    - name: install pygount
+    - name: install-pygount
       run: pip install pygount
 
   count-lines:
