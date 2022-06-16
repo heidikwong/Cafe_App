@@ -15,18 +15,14 @@ jobs:
       - name: list-dir
         run: ls -laR # Recursively list directory contents
 
-  install-pygount:
-    name: install pygount
+  count-lines-pygount:
+    name: count lines of codes
     runs-on: ubuntu-latest
     steps:
+      - name: checkout-repo
+        uses: actions/checkout@v2
       - name: install-pygount-library
         run: pip install pygount
-
-  count-lines:
-    name: count lines
-    runs-on: ubuntu-latest
-    needs: install-pygount
-    steps:
-      - name: run-count-lines
+      - name: count-lines
         run: pygount --format=summary
 
