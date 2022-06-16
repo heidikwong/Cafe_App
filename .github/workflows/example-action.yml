@@ -28,5 +28,5 @@ jobs:
     needs: install-pygount
     steps:
       - name: run-count-lines
-        run: pygount  --format=summary app.py
+        run: pygount --format=summary app.py
 
