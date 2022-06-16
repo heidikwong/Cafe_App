@@ -16,11 +16,17 @@ jobs:
         run: ls -laR # Recursively list directory contents
 
   install-pygount:
-    - name: install-pygount
-      run: pip install pygount
+    name: install pygount
+    runs-on: ubuntu-latest
+    steps:
+      - name: install-pygount-library
+        run: pip install pygount
 
   count-lines:
-    - name: count lines
-      needs: install-pygount
-      run: pygount  --format=summary app.py
+    name: count lines
+    runs-on: ubuntu-latest
+    needs: install-pygount
+    steps:
+      - name: run-count-lines
+        run: pygount  --format=summary app.py
 
